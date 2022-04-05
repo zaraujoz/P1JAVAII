@@ -3,6 +3,13 @@ public class Funcionario{
     String CPF;
     double Salario;
     String Departamento;
+    double Bonus;
+    public double getBonus() {
+        return Bonus;
+    }
+    public void setBonus(double bonus) {
+        Bonus = bonus;
+    }
     public String getNome() {
         return Nome;
     }
